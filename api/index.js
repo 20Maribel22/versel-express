@@ -7,11 +7,11 @@ app.listen(PORT, () => {
   console.log(`API listening on PORT ${PORT} `)
 })
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('Hey this is my API running 🥳')
 })
 
-app.get('/about', (req, res) => {
+app.get('/api/about', (req, res) => {
   res.send('This is my about route..... ')
 })
 
